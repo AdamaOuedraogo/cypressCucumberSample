@@ -12,6 +12,8 @@ describe("Login from testrail",()=>{
   it("this test connect to testrail app",()=>{
     loginPage.visit();
     loginPage.login(name,password);
+    //cy.get('.top-section').should('be.visible')
+    //.and('have.text','TestRail QA')
 
   })
 })
